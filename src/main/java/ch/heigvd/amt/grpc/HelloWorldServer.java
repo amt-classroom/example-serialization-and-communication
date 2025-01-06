@@ -85,6 +85,7 @@ public class HelloWorldServer {
 
     @Override
     public void sayHello(HelloRequest req, StreamObserver<HelloReply> responseObserver) {
+      // The business logic comes here
       logger.info("SayHello request received: " + req.getName());
       HelloReply reply = HelloReply.newBuilder().setMessage("Hello " + req.getName()).build();
       responseObserver.onNext(reply);

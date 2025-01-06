@@ -17,6 +17,7 @@ public class Sax {
 
         // Create the handler
         DefaultHandler handler = new DefaultHandler() {
+
             boolean isName = false;
             boolean isAge = false;
 

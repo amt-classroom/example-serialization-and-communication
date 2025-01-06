@@ -7,6 +7,7 @@ class Person implements Serializable {
     private String name;
     private int age;
     private transient String ignoredField = "This field will not be serialized";
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;

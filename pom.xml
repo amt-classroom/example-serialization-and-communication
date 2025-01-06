@@ -88,7 +88,6 @@
                     <sources>
                         <source>src/main/resources/schema/persons.xsd</source>
                     </sources>
-                    <schemaDirectory>${project.basedir}/src/main/resources/schema</schemaDirectory>
                     <packageName>ch.heigvd.amt.xjc.generated</packageName>
                     <outputDirectory>${project.basedir}/target/generated-sources/jaxb</outputDirectory>
                 </configuration>

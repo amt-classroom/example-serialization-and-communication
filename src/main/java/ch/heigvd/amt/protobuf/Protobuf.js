@@ -1,3 +1,5 @@
+// Intall the protoc compiler
+// brew install grpc protobuf
 
 // Install the protoc-gen-js plugin
 // npm install protoc-gen-js --save
@@ -9,6 +11,7 @@
 // npm install protobufjs --save
 
 // Generate the JS file
+// Note: The path of js_out (.) is relative to the proto file (person.proto)
 // protoc --js_out=import_style=commonjs,binary:. src/main/resources/proto/person.proto
 
 // Import the generated JS file

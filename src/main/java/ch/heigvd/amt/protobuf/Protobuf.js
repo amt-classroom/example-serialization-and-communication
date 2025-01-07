@@ -2,7 +2,7 @@
 // brew install grpc protobuf
 
 // Install the protoc-gen-js plugin
-// npm install protoc-gen-js --save
+// npm install protoc-gen-js -g
 
 // Install the google-protobuf library
 // npm install google-protobuf --save
@@ -31,4 +31,4 @@ persons.getPersonsList().forEach(person => {
 });
 
 // Run the script
-// node src/main/java/ch/heigvd/amt/protbuf/Protobuf.js
+// node src/main/java/ch/heigvd/amt/protobuf/Protobuf.js
